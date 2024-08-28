@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversion</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+<div class="conversionplate">
+    <h1>Conversion</h1>
+    <label for="toconvert" class="Label">Conversion of:</label><br>
+    <input type="number" name="toconvert" id="toconvert"><br><br>
+
+    <input type="radio" id="toFahrenheit" name="unit">
+    <label for="toFahrenheit">Celsius ➡️Fahrenheit</label><br><br>
+
+    <input type="radio" id="toCelsius" name="unit">
+    <label for="toCelsius">Fahrenheit ➡️Celsius</label>
+
+    <p class="result"></p>
+    <button type="submit" class="convert-btn" onclick="convert()">Convert</button>
+</div>
+    <script src="./index.js"></script>
+</body>
+</html>

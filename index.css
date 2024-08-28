@@ -1,0 +1,30 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+.conversionplate{
+    background-color: blue;
+    color: white;
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+.convert-btn{
+    padding: 4px;
+    border-radius: 2px;
+    border: none;
+    margin-top: 15px;
+}
+#toconvert{
+    font-size: 1.2rem;
+    max-width: 40%;
+}
+.result{
+    margin-top: 10px;
+}
