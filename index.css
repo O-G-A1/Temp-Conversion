@@ -28,3 +28,9 @@
 .result{
     margin-top: 10px;
 }
+
+@media all and (max-width:550px){
+    .conversionplate{
+        width: 90%;
+    }
+}
